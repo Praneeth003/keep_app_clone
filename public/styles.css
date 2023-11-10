@@ -8,6 +8,10 @@
   }
   body {
     background: #eee;
+    background-color: #f5f3cc;
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/kinda-jean.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     padding: 0 16px;
   }
   
