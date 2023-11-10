@@ -1,4 +1,5 @@
 import React from "react";
+import AddCircleSharpIcon from '@mui/icons-material/AddCircleSharp';
 
 function Create(props) {
     const [note, setNote] = React.useState({
@@ -30,7 +31,7 @@ function Create(props) {
       <form>
         <input name="title" placeholder="Title" value = {note.title} onChange={recordInput}/>
         <textarea name="content" placeholder="Take a note" rows="3" value = {note.content} onChange = {recordInput}/>
-        <button onClick={handler}>Add</button>
+        <button onClick={handler}>< AddCircleSharpIcon /></button>
       </form>
     </div>
   );
