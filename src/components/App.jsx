@@ -17,14 +17,22 @@ function App() {
       ];
     }));
   }
+
+  function delNote(id) {
+    setNNote(prev => {
+      return prev.filter((i, index) => {
+        return index !== id;
+      });
+    });
+  }
   return (
     <div>
       <Header />
       <Create 
         add = {addNote}
       />
-      {nNote.map(i => {
-      return(<Note title={i.title} content={i.content} />);
+      {nNote.map((i, index) => {
+      return(<Note  id = {index} key = {index} title={i.title} content={i.content}  del = {delNote} />);
       })}
       <Footer />
     </div>
