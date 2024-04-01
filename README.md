@@ -11,7 +11,7 @@ Keep App is a simple to-do application developed using React.js. It allows users
 
 ## Getting Started
 
-Use https://keep-app-clone-ten.vercel.app/ to use.
+Use https://keep-app-clone-ten.vercel.app/ to utilize the application.
 
 If you want to get started with running Keep App locally, follow these steps:
 
